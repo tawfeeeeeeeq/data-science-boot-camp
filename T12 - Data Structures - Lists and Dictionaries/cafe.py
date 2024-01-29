@@ -1,3 +1,7 @@
+"""
+The purpose of this script is too calculate the total_stock worth in the cafe. 
+"""
+
 # Create a list called menu, which should contain at least four items sold in the cafe.
 menu = ["breakfast", "lunch", "dinner", "special"]
 
@@ -17,7 +21,8 @@ price = {
     "special": 24.99
 }
 
-# Calculate the total_stock worth in the cafe.
+# Loop through the appropriate dictionaries above.
+# Calculate the total_stock worth in the cafe and print it out.
 total_stock = 0
 for i in menu:
     total_stock += stock[i] * price[i]
